@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<!-- Template Created By CodingNepal -->
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hana Learns Code</title>
+    <link rel="stylesheet" href="style/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"/>
+    <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/typed.js/2.0.11/typed.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/waypoints/4.0.1/jquery.waypoints.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css"/>
+
+</head>
+<body>
+    <div id="progressbar"></div>
+    <div id="scrollPath"></div>
+    <div class="scroll-up-btn">
+        <i class="fas fa-angle-up"></i>
+    </div>
+    <nav class="navbar">
+        <div class="max-width">
+            <div class="logo"><a href="#">Hana<span> learns code</span></a></div>
+            <ul class="menu">
+                <li><a href="#home" class="menu-btn">Home</a></li>
+                <li><a href="#loading" class="menu-btn">Blog</a></li>
+                <li><a href="#services" class="menu-btn">Skills</a></li>
+                <li><a href="#about" class="menu-btn">About</a></li>
+            </ul>
+            <div class="menu-btn">
+                <i class="fas fa-bars"></i>
+            </div>
+        </div>
+    </nav>
+
+    <!-- home section start -->
+    <section class="home" id="home">
+        <div class="max-width">
+            <div class="home-content">
+                <div class="text-1">Hello World...</div>
+                <div class="text-2">We finally meet!</div>
+                <div class="text-3">Are you ready for some fun <span class="typing"></span></div>
+            </div>
+        </div>
+        <div class="circle"></div>
+        <div class="circle"></div>
+        <svg>
+            <filter id="wavy">
+                <feTurbulence x="0" y="0" id="turbulence" baseFrequency="0.009" numOctaves="5" seed="2">
+                    <animate attributeName="baseFrequency" dur="60s" values="0.02;0.005;0.02" repeatCount="indefinite" />
+                </feTurbulence>
+                <feDisplacementMap in="SourceGraphic" scale="30" />
+            </filter>
+        </svg>
+    </section>
+
+    <!-- about section start -->
+    <section class="teams" id="loading">
+        <div class="max-width">
+            <h2 class="title">My Blog</h2>
+        <div class="band">
+            <div class="item-1">
+                <a href="introblog.html" class="card">
+                    <div class="thumb" style="background-image: url(https://images.pexels.com/photos/3601081/pexels-photo-3601081.jpeg);"></div>
+                    <article>
+                        <h1>My First Blog post</h1>
+                        <span>The journey to building this portfolio website starts here.</span>
+                    </article>
+                </a>
+            </div>
+            <div class="item-2">
+                <a href="blog2.html" class="card">
+                    <div class="thumb" style="background-image: url(https://images.pexels.com/photos/97077/pexels-photo-97077.jpeg);"></div>
+                    <article>
+                        <h1>The Gift of Code</h1>
+                        <span>Code for everyone. Discover the world of open source.</span>
+                    </article>
+                </a>
+            </div>
+            <div class="item-3">
+                <a href="blog3.html" class="card">
+                    <div class="thumb" style="background-image: url(https://images.pexels.com/photos/3987020/pexels-photo-3987020.jpeg);"></div>
+                    <article>
+                        <h1>Templates, templates everywhere...</h1>
+                        <span>In this blog post, I will share with you my favorite picks where you can find the best ready made code.</span>
+                    </article>
+                </a>
+            </div>
+            <div class="item-4">
+                <a href="blog4.html" class="card">
+                    <div class="thumb" style="background-image: url(https://images.unsplash.com/photo-1618401471353-b98afee0b2eb);"></div>
+                    <article>
+                        <h1>Github Pages</h1>
+                        <span>At first, I was scared... I was petrified of.. Github but trust me, it is much easier than you think!</span>
+                    </article>
+                </a>
+            </div>
+            <div class="item-5">
+                <a href="blog5.html" class="card">
+                    <div class="thumb" style="background-image: url(https://images.pexels.com/photos/5240543/pexels-photo-5240543.jpeg);"></div>
+                    <article>
+                        <h1>Last Words</h1>
+                        <span>A wrap up with a highlight with the most important lessons I have learned on the journey to building this portfolio.</span>
+                    </article>
+                </a>
+            </div>
+        </div>
+        </div>
+    </section>
+
+    <!-- teams section start -->
+    <!-- services section start -->
+    <section class="services" id="services">
+        <h2 class="title">My New Skills</h2>
+         <div class="container1">
+            <div class="box">
+                <span></span>
+                <div class="content">
+                    <h2>CSS Templates</h2>
+                    <p>How to use open source and benefit from it</p>
+                </div>
+            </div>
+            <div class="box">
+                <span></span>
+                <div class="content">
+                    <h2>Animations</h2>
+                    <p>I learned new CSS animations that will blow your mind</p>
+                </div>
+            </div>
+            <div class="box">
+                <span></span>
+                <div class="content">
+                    <h2>Parallax</h2>
+                    <p><b>Parallax</b> is so powerful. It works by animating different layers.</p>
+                </div>
+            </div>
+            <div class="box">
+                <span></span>
+                <div class="content">
+                    <h2>Github Pages</h2>
+                    <p>Github used to scare me. Now, I can't imagine working without it.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- about section start -->
+    <section class="about" id="about">
+        <div class="max-width">
+            <h2 class="title">About me</h2>
+            <div class="about-content">
+                <a class="c-preview">
+                    <div class="c-preview__img"></div>
+                    <img src="images/aboutme.jpg" alt="">
+                </a>
+                <div class="column right">
+                    <div class="text">I'm Hana and I'm a <span class="typing-2"></span></div>
+                    <p>A literary major, journalist and writer with an affinity for all things tech. Earned my bachelor degree in English Literature in my home country Lebanon and worked as a journalist for over 10 years between Beirut and Dubai. Over the course of my career which was mainly print and later on extended into digital, I was very interested in how information was curated and distributed. I often found myself drawn to the technical side of things, learning html and working with different CMS platforms. Developing those skills came in handy but remained very curious about what lays under the hood. After my long journalistic stint,I found my way back to Academia in Belgium where I joined KU Leuven for a Masters in Western Literature. After finalizing my degree, I joined the Advanced Master Program of Digital Humanities program. This program has opened up an entire new universe of possibilities and rekindled my curiosity and my love for digital and all things tech. From scripting languages and web development, to data visualizations and AI, everyday I am introduced to new ways I can become a better humanities graduate, journalist and writer. In the digital age we live in, both code and data have become the new gold. While the future direction of this blog is still very much up in the air, I thank you for taking the time to browse those pages and I invite you to come back in the future to see my progress. It is my intention with this blog to encourage my readers to explore new passions and creative avenues no matter how complicated it might seem.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- footer section start -->
+    <footer>
+        <span>All images on this website are from <a href="https://www.pexels.com">Pexels</a> and <a href="https://unsplash.com">Unsplash</a>. They cannot be reused for commercial purposes. Template for this page was created By <a href="https://www.codingnepalweb.com">CodingNepal</a> | <span class="far fa-copyright"></span> 2020 All rights reserved.</span>
+    </footer>
+
+    <script src="script/script.js"></script>
+</body>
+</html>

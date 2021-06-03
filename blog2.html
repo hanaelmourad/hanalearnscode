@@ -1,0 +1,44 @@
+<!doctype html>
+<html>
+<head>
+  <title>Art of Code</title>
+  <link rel="stylesheet" type="text/css" href="Blog1/style.css">
+</head>
+<body>
+  <div class="banner">
+    <h2 id="text">The Gift of Code</h2>
+    <div class="clouds">
+      <img src="Blog1/cloud1.png" style="--i:1;">
+      <img src="Blog1/cloud2.png" style="--i:2;">
+      <img src="Blog1/cloud3.png" style="--i:3;">
+      <img src="Blog1/cloud4.png" style="--i:4;">
+      <img src="Blog1/cloud5.png" style="--i:5;">
+      <img src="Blog1/cloud1.png" style="--i:10;">
+      <img src="Blog1/cloud2.png" style="--i:9;">
+      <img src="Blog1/cloud3.png" style="--i:8;">
+      <img src="Blog1/cloud4.png" style="--i:7;">
+      <img src="Blog1/cloud5.png" style="--i:6;">
+    </div>
+  </div>
+  <section>
+    <container id="content">
+    <h2>The Gift That Keeps Giving</h2>
+    <p>In my previous post, I spoke about the existence of a plethora of already beautifully written code sitting there waiting for you to grab. In fact, over the course of my new program, which belongs to the Faculty of Science, I worked on several projects, whether SQL and Python to Tableau and Drupal,
+      I found myself more and more relying on the web and the different forums that exist from such as <a href="https://stackoverflow.com">Stack Overflow</a>, Github, <a href="https://codepen.io">Code Pen</a>. During a class of one of the courses that took place in the first semester, a professor asked a student a question and when she said she did not know the answer, the professor said: "if you were alone right now in front of your computer and you were trying to solve this problem, what would you do." The student answered shyly: "I'd Google it" to which the professor replied with: "Exactly!"
+      He went on saying with a humorous tone: "Us programmers and developers are paid to Google things. Whatever question you have, look for the answer on the web. I remember thinking this is a different world from that of the Humanities that I can from. While both foster creativity and innovation, Literature focuses on the intellectual property of the "art" and the rights of its creator. On the other hand, when looking at code and how its used, there is, dare I say, a higher purpose for lack of better words. There is the drive to make the world a better place by sharing knowledge, building on top of previous work, iterating and improving constantly.
+      <br><br>As a literary student who spent the last two years perfecting my bibliography and religiously referencing text and quotes I was using, I was still feeling a bit uneasy about it and still had my doubts, I googled it! I found hundreds of posts on platforms like Quora and Reddit asking whether it is ethical to use someone's code. Almost the majority of replies were pro using already existing code while highlighting the importance of test driving the code, understanding what it does, and practicing it. And that is exactly what I did. I started first with drafting a sketch of how I want my main page to look like. From there, I started writing my code and when I wanted a glowing button effect, I quickly found a number of amazingly beautiful tutorials on YouTube and elsewhere. But, YouTube by far had the most helpful resources I found.
+      Among the content I found was two very cool channels (<a href="https://www.youtube.com/c/DevEd">Dev Ed</a> and <a href="https://www.youtube.com/c/OnlineTutorials4Designers">Online Tutorials</a>) that featured a lot of tutorials on HTML and CSS animations. The first animation I learned was the <a href="https://www.youtube.com/watch?v=ex7jGbyFgpA">neon button</a>  that you saw on the Hello World page. Then, I wanted to create some suspense for the user before arriving into the main page so I added another animation that serves as little teaser. As I practiced the code, I started learning new functions that I didn't even know existed or where even possible with a simple styling language like CSS. Turns out, what I had learned and worked with was only the tip of the iceberg.
+      This reminded me of a video from some tech seminar that I had just watched called <a href="https://www.youtube.com/watch?v=6avJHaC3C2U">"The Art of Code"</a>(which I highly recommend watching). In it, Dylan Beattie - programmer, musician, and creator of the Rockstar programming language (yes, it is really a thing. It is dynamically typed computer programming language, designed for creating programs that are also song lyrics, as described on its GitHub repository) talks about he created a programming language as a joke in a bar. And within less than week of him uploading his code on GitHub, people were filing issues and suggesting improvements. This also made me realize that the community is built on the concept of open source, on camaraderie, on working together to achieve better results as a collective creating more space for win-win situations.
+      <br><br>Moral of the story: Code is here and it is abundant. Use it but dissect it, study it, rewrite... That is the only way that you will grow your skills and slowly but surely, your skills will improve. Join me in the <a href="blog3.html">next post</a>. next blog where I will share with you more resources that helped me achieved those results.
+     </p>
+    </container>
+  </section>
+  <script type="text/javascript">
+    let text = document.getElementById('text');
+    window.addEventListener('scroll' , function(){
+      let value = window.scrollY;
+      text.style.marginBottom = value * 2 + 'px';
+    })
+  </script>
+</body>
+</html>
